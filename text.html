@@ -9,7 +9,11 @@
 
             if (inputValue > 10) {
                 document.getElementById("result").innerHTML = "The number is greater than 10.";
-            } else {
+            } 
+            else if (inputValue == 10) {
+                document.getElementById("result").innerHTML = "The number is exactly 10";
+            }
+            else {
                 document.getElementById("result").innerHTML = "The number is 10 or less.";
             }
         }
